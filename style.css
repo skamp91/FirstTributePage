@@ -1,0 +1,192 @@
+html {
+  background: linear-gradient(to bottom, black, chocolate);
+  text-align: center;
+  padding: 30px 50px 40px 50px;
+}
+body {
+  width: 1700px;
+  background: linear-gradient(to bottom, black, chocolate);
+}
+.background {
+  background: url("page.pictures/forest.jpeg");
+}
+#header {
+  padding-top: 610px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: url("page.pictures/fantasy.jpg");
+  background-size: cover;
+  margin-bottom: 80px;
+  border-width: 2px;
+  border-color: chocolate;
+  border-style: solid;
+}
+#header img {
+  width: 400x;
+  height: 260px;
+  padding-bottom: 20px;
+}
+#header h1 {
+  font-family: 'Amatic SC', cursive;
+  color: rgb(210, 105, 30);
+  border-width: 4px;
+  border-color: rgb(210, 105, 30);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  font-size: 70px;
+  margin: 50px 200px 10px 200px;
+  padding: 10px 20px 0px 10px;
+  font-weight: bold;
+}
+#header h2 {
+  font-family: 'Cormorant SC', serif;
+  font-style: italic;
+  font-size: 32px;
+  margin: 20px 200px 30px 200px;
+  color: rgb(210, 105, 30);
+  border-width: 2px;
+  border-color: rgb(210, 105, 30);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 50px;
+}
+#content {
+  padding: 50px;
+  color: black;
+  border-width: 4px;
+  border-color: chocolate;
+  border-style: solid;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+#content img {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+#content ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#content li {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+#content li h3 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(210, 105, 30);
+  border-width: 2px;
+  border-color: rgb(210, 105, 30);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+#content h2 {
+  font-family: 'Cormorant SC', serif;
+}
+#content h1 {
+  font-size: 70px;
+  color: rgb(210, 105, 30);
+  border-width: 2px;
+  border-bottom-width: 0px;
+  border-color: rgb(210, 105, 30);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: 'Amatic SC', cursive;
+  margin: 0px 50px;
+  padding: 30px 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#content footer a {
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  color:  black;
+  background-color: rgba(210, 105, 30, 0.5);
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+#idee {
+    font-family: 'Cormorant SC', serif;
+    font-size: 28px;
+    font-style: oblique;
+    color: chocolate;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    padding-top: 0px;
+    border-width: 2px;
+    border-top-width: 0px;
+    border-color: chocolate;
+    border-style: solid;
+    margin: 0px 50px;
+    margin-bottom: 20px;
+}
+.double {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  margin-top: 0px;
+  display: inline-block;
+  text-align: justify;
+  padding: 20px;
+  border: 10px;
+  width: 360px;
+}
+.text h2 {
+  font-style: oblique;
+  font-size: 35px;
+  text-align: justify;
+  background-color: rgba(210, 105, 30, 0.7);
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-width: 2px;
+  border-bottom-width: 0px;
+  border-color: black;
+  border-style: solid;
+}
+.text p {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 18px;
+  color: chocolate;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-width: 2px;
+  border-top-width: 0px;
+  border-color: black;
+  border-style: solid;
+}
+.text footer {
+  padding-top: 10px;
+}
+#footer {
+  border-width: 4px;
+  border-top-width: 0px;
+  border-color: chocolate;
+  border-style: solid;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+#footer h3 {
+  margin: 0px;
+  padding: 20px 20px;
+}
+#footer h3 a {
+  color: chocolate;
+  font-family: 'Cormorant SC', serif;
+}
+#footer p a {
+  color: rgb(31, 135, 209);
+}
+blockquote {
+  border-left: 0px;
+  margin: 0px;
+}
